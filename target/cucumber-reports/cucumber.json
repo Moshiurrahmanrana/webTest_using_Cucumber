@@ -1,0 +1,281 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Verify users can login to portal with valid credentials",
+        "description": "",
+        "id": "login-to-an-e-commerce-website;verify-users-can-login-to-portal-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1356781300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15539542000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User visits e-commerce website",
+            "match": {
+              "location": "StepDefinitions.user_visits_e_commerce_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3830938600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters valid email \"jam123@gmail.com\" and valid password \"easy1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jam123@gmail.com",
+                  "offset": 25
+                },
+                {
+                  "val": "easy1234",
+                  "offset": 63
+                }
+              ],
+              "location": "StepDefinitions.user_enters_valid_credentials(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 192033600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User can logged in successfully",
+            "match": {
+              "location": "StepDefinitions.user_can_logged_in_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Verify users cannot login to portal without valid credentials",
+        "description": "",
+        "id": "login-to-an-e-commerce-website;verify-users-cannot-login-to-portal-without-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1211855700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8626965000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User visits e-commerce website",
+            "match": {
+              "location": "StepDefinitions.user_visits_e_commerce_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2710077200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters invalid email \"wrong12@test.com\" and invalid password \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "wrong12@test.com",
+                  "offset": 27
+                },
+                {
+                  "val": "password123",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinitions.user_enters_invalid_email_and_invalid_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54113300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can not logged in",
+            "match": {
+              "location": "StepDefinitions.user_can_not_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Verify users cannot login to portal without valid credentials",
+        "description": "",
+        "id": "login-to-an-e-commerce-website;verify-users-cannot-login-to-portal-without-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1139427800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19631717100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User visits e-commerce website",
+            "match": {
+              "location": "StepDefinitions.user_visits_e_commerce_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 746018800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters invalid email \"tor1265@test.com\" and invalid password \"password123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tor1265@test.com",
+                  "offset": 27
+                },
+                {
+                  "val": "password123",
+                  "offset": 67
+                }
+              ],
+              "location": "StepDefinitions.user_enters_invalid_email_and_invalid_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40603300,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can not logged in",
+            "match": {
+              "location": "StepDefinitions.user_can_not_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Verify users cannot login to portal without valid credentials",
+        "description": "",
+        "id": "login-to-an-e-commerce-website;verify-users-cannot-login-to-portal-without-valid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 1109745700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15060571000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User visits e-commerce website",
+            "match": {
+              "location": "StepDefinitions.user_visits_e_commerce_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1491324900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters invalid email \"\" and invalid password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "",
+                  "offset": 27
+                },
+                {
+                  "val": "",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefinitions.user_enters_invalid_email_and_invalid_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 39416900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User can not logged in",
+            "match": {
+              "location": "StepDefinitions.user_can_not_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login to an e-commerce website",
+    "description": "",
+    "id": "login-to-an-e-commerce-website",
+    "keyword": "Feature",
+    "uri": "login.feature",
+    "tags": []
+  }
+]
